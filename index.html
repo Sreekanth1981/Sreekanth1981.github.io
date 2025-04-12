@@ -1,31 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Balaji Technologies - Salesforce Training</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        header { background: #007bff; color: white; padding: 20px; font-size: 24px; }
-        section { margin: 20px; }
-        .cta { background: #28a745; color: white; padding: 15px; display: inline-block; text-decoration: none; border-radius: 5px; }
-        footer { margin-top: 20px; font-size: 14px; color: gray; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balajitechforce - Salesforce Training</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f5f9ff;
+      color: #333;
+    }
+    header {
+      background: #005cbf;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #005cbf;
+    }
+    .cta-button {
+      background: #007bff;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 15px;
+    }
+    .courses, .audience, .learn {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1 1 250px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    form {
+      display: grid;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    input, select, button {
+      padding: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background: #005cbf;
+      color: white;
+      border: none;
+    }
+    footer {
+      background: #002e66;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Balaji Technologies</h1>
-        <p>Your trusted partner for Salesforce training</p>
-      <h1>Welcome to BalajiTech!</h1>
-<p>Website is under construction...</p>
-    </header>
-    <section>
-        <h2>Why Choose Us?</h2>
-        <p>We provide expert-led Salesforce training to help you advance your career.</p>
-        <a href="mailto:support@balajitechforce.com" class="cta">Contact Us</a>
-    </section>
-    <footer>
-        &copy; 2025 Balaji Technologies | Email: support@balajitechforce.com
-    </footer>
+  <header>
+    <h1>Balajitechforce</h1>
+    <p>Salesforce Training That Gets You Hired</p>
+    <p>By Sreekanth Ulli | 20+ Years Experience | Ex-Director, RevOps</p>
+    <a href="#demo" class="cta-button">Join Free Demo</a>
+    <a href="#courses" class="cta-button">View Course Details</a>
+  </header>
+
+  <section class="section">
+    <h2>About Balajitechforce</h2>
+    <p>Founded by Sreekanth Ulli, Balajitechforce is a career-focused Salesforce training platform helping students, working professionals, and job seekers build real skills through practical, hands-on learning.</p>
+  </section>
+
+  <section class="section">
+    <h2>Who Should Join?</h2>
+    <div class="audience">
+      <div class="card">Students aiming for tech careers</div>
+      <div class="card">Working professionals switching to Salesforce</div>
+      <div class="card">Freshers preparing for Admin or Developer roles</div>
+      <div class="card">Interview candidates struggling with Apex/LWC questions</div>
+    </div>
+  </section>
+
+  <section class="section" id="courses">
+    <h2>Courses Offered</h2>
+    <div class="courses">
+      <div class="card">Salesforce Administrator (Beginner to Pro)</div>
+      <div class="card">Salesforce Apex Development (Real Projects)</div>
+      <div class="card">Lightning Web Components (LWC)</div>
+      <div class="card">Revenue Cloud / CPQ (Advanced Functional)</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>What You'll Learn</h2>
+    <div class="learn">
+      <div class="card">How to build apps in Salesforce</div>
+      <div class="card">Hands-on with Objects, Fields, Validation, Security</div>
+      <div class="card">Real-world Projects & Use Cases</div>
+      <div class="card">Apex Basics & Automation</div>
+      <div class="card">CPQ/Revenue Cloud fundamentals</div>
+      <div class="card">Interview Prep & Resume Tips</div>
+    </div>
+  </section>
+
+  <section class="section" id="demo">
+    <h2>Join the Free Salesforce Demo</h2>
+    <p>Live session by Sreekanth Ulli. Discover the Salesforce job market, tools, and roadmap for 2025.</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Phone Number">
+      <select required>
+        <option value="">Course Interested In</option>
+        <option>Salesforce Admin</option>
+        <option>Apex Development</option>
+        <option>LWC</option>
+        <option>Revenue Cloud</option>
+      </select>
+      <button type="submit">Request Callback</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Balajitechforce | Salesforce Training by Sreekanth Ulli</p>
+  </footer>
 </body>
 </html>
